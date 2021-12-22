@@ -9,4 +9,7 @@ npm -v
 npm install -g create-react-app  
 npm install react-router-dom  
 ### 반영 내용
-리액트 라우터 설정과 was 연동 위한 프록시 설정
+리액트 라우터 설정  
+"react-router-dom": "^6.2.1" (package.json 파일에 설정)  
+리액트 웹서버 was 프록시 설정  
+"proxy": "http://localhost:8080" (package.json 파일에 설정)  
